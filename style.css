@@ -1,0 +1,58 @@
+
+
+
+table, th, td {
+    border: 1px solid;
+    padding: 10px;
+    background: rgb(21, 201, 177);
+    
+  } 
+
+.container {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.container2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.box {
+    display: grid;
+    /* background-color:aquamarine; */
+    column-gap: 50px;
+    row-gap: 25px;
+    padding: 10px;
+    grid-template-areas: "BSM Employment Technical Skills"
+                         "a b d d";
+}
+
+.BSM {
+    background-color: red;
+    grid-area: a;
+    margin: 30px 30px;
+    /* width: 150px;
+    height: 150px; */
+    
+
+}
+
+.b {
+    background-color: yellow;
+    grid-area: b;
+    margin: 30px 30px;
+    /* width: 150px;
+    height: 150px; */
+
+}
+.c {
+    background-color: green;
+    grid-area: c;
+    margin: 50px 30px;
+}
+
